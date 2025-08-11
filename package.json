@@ -17,6 +17,7 @@
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
         "postbuild": "./deploy-script.bat",
+        "deploy": "ng build --configuration production --base-href '/rescue-environment/' && npx angular-cli-ghpages --dir=dist/rescue-environment",
         "test": "ng test"
     },
     "dependencies": {
