@@ -1,14 +1,14 @@
-import { Routes } from '@angular/router';
-import { LandingHomeComponent } from 'app/modules/landing/home/home.component';
-import {HomeComponent} from "./home/home.component";
+import {Routes} from '@angular/router';
+import {HomeComponent} from './home/home.component';
 
 export default [
     {
         path: '',
-        component: HomeComponent,
+        component: HomeComponent, // تنها کامپوننت eager-loaded
     },
     {
         path: 'home',
         component: HomeComponent,
     },
+
 ] as Routes;
