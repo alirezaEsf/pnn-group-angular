@@ -5,6 +5,6 @@ export const environment = {
     defaultLanguage: 'fa',
     supportedLanguages: ['fa-IR', 'en-US'],
     production: true,
-    apiBaseUrl: '/rescue-environment/',
+    apiBaseUrl: '/pnn-group-angular/rescue-environment/',
     hmr: false
 };
