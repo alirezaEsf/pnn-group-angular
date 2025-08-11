@@ -22,7 +22,7 @@ import { APP_BASE_HREF } from '@angular/common';
     providers:[MessageService,ToastService,
         {
             provide: APP_BASE_HREF,
-            useValue: environment.production ? '/pnn-group/' : '/'
+            useValue: environment.production ? '/rescue-environment/' : '/'
         }
     ],
     imports: [RouterOutlet, MainComponent],

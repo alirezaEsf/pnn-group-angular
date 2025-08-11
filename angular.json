@@ -19,9 +19,9 @@
                     "options": {
                         "index": "src/index.html",
                         "main": "src/main.ts",
-                        "baseHref": "/pnn-group/",
-                        "deployUrl": "/pnn-group/",
-                        "outputPath": "dist/pnn-group",
+                        "baseHref": "/rescue-environment/",
+                        "deployUrl": "/rescue-environment/",
+                        "outputPath": "dist/rescue-environment",
                         "polyfills": [
                             "zone.js"
                         ],
@@ -79,8 +79,8 @@
                     },
                     "configurations": {
                         "production": {
-                            "baseHref": "/pnn-group/",
-                            "deployUrl": "/pnn-group/",
+                            "baseHref": "/rescue-environment/",
+                            "deployUrl": "/rescue-environment/",
                             "fileReplacements": [
                                 {
                                     "replace": "src/environments/environment.ts",
