@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "rescue-environment": {
+        "pnn-group-angular": {
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:component": {
@@ -19,9 +19,9 @@
                     "options": {
                         "index": "src/index.html",
                         "main": "src/main.ts",
-                        "baseHref": "/pnn-group-angular/rescue-environment/",
-                        "deployUrl": "/pnn-group-angular/rescue-environment/",
-                        "outputPath": "dist/rescue-environment",
+                        "baseHref": "/pnn-group-angular/",
+                        "deployUrl": "/pnn-group-angular/",
+                        "outputPath": "dist/pnn-group-angular",
                         "polyfills": [
                             "zone.js"
                         ],
@@ -79,8 +79,8 @@
                     },
                     "configurations": {
                         "production": {
-                            "baseHref": "/pnn-group-angular/rescue-environment/",
-                            "deployUrl": "/pnn-group-angular/rescue-environment/",
+                            "baseHref": "/pnn-group-angular/",
+                            "deployUrl": "/pnn-group-angular/",
                             "fileReplacements": [
                                 {
                                     "replace": "src/environments/environment.ts",
